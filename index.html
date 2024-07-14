@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SafetyNet Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .video-container {
+        position: relative;
+        height: 60vh; /* Adjust the height as needed for your hero section */
+        overflow: hidden;
+      }
+      .video-container video {
+        position: absolute;
+        opacity: 0.8;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+      .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0 20px;
+      }
+      .left-content {
+        flex: 1;
+        padding: 20px;
+        text-align: left;
+      }
+      .main-content {
+        padding: 20px;
+        text-align: left;
+      }
+      .navbar-brand img, footer img {
+        height: 100px; /* Adjust the height to fit within the header/footer */
+        margin: 0;
+        padding: 0;
+      }
+
+      .bg-sections {
+        background-image: url("./images/Bg-section-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      /* Testimonials */
+      .testimonial-card .card-up {
+      height: 120px;
+      overflow: hidden;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+
+      }
+    .testimonial-card .avatar {
+      width: 110px;
+      margin-top: -60px;
+      overflow: hidden;
+      border: 3px solid #fff;
+      border-radius: 50%;
+    }
+
+    section {
+      padding: 30px;
+      margin: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/SafetyNet.png" alt="SafetyNet Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Course</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="Osha.html">OSHA</a></li>
+                <li><a class="dropdown-item" href="Fundamentals.html">Safety Foundamentals</a></li>
+                <li><a class="dropdown-item" href="Fall prevention.html">Fall Prevention Course</a></li>
+                <li><a class="dropdown-item" href="powertools.html">Power Tools Handling Course</a></li>
+              </ul>
+              </ul>
+            </li>
+          </ul>
+          <form>
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="video-container">
+      <video autoplay muted loop>
+        <source src="./video/8964796-uhd_3840_2160_25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="content-wrapper">
+        <div class="left-content">
+          <h1 class="display-2 fw-bold ls-tight text-black-30">SafetyNet Training Center</h1>
+          <p class="lead fw-normal text-white">One Platform to learn Safety Practices</p>
+          <a class="btn btn-danger p-3" href="#contacts">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Icon Grid -->
+     <div class="bg-sections">
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Updated Courses 2024</h2>
+  
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="display-4 fw-bold ls-tight"><span style="color:red">SafetyNet</span> Available Courses</h2>
+          <p class="text-body-secondary">Explore our extensive range of safety training courses designed to meet the needs of various industries. From basic safety principles to advanced compliance training, our courses are crafted to ensure you and your organization stay safe, informed, and compliant with the latest safety standards.</p>
+          <a href="#" class="btn btn-dark btn-lg">Learn More </a>
+        </div>
+  
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col d-flex flex-column gap-2 bg-body-secondary rounded">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#collection"></use>
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0 text-danger">OSHA Construction Training</h4>
+              <p class="text-body-secondary">OSHA is a federal agency housed within the Department of Labor (DOL). Its purpose is to establish and enforce rules that employers must follow to keep their workplaces safe and healthy for all employees.</p>
+            </div>
+  
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#gear-fill"></use>
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Workplace Safety Fundamentals</h4>
+              <p class="text-body-secondary">Safety Priority is a comprehensive course designed to emphasize the importance of maintaining safety standards in the workplace.</p>
+            </div>
+  
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#speedometer"></use>
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Fall prevention and protection</h4>
+              <p class="text-body-secondary">Fall prevention is any system or process you use to keep an accidental fall from being a risk. This makes sense since prevention means that you're trying to avoid something altogether..</p>
+            </div>
+  
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#table"></use>
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">
+                Power tools handling training
+            </h4>
+              <p class="text-body-secondary">The use of hand power tools is commonplace, especially in industries involving heavy manual work. But for the same reason, most workers fail to remember that they pose a lot of safety risks. .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Sign and Login Section -->
+   
+      <!-- Jumbotron -->
+      <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)" id="enroll1">
+        <div class="container">
+          <div class="row gx-lg-5 align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <h1 class="my-5 display-3 fw-bold ls-tight">
+                Enhance your skill,<span style="color:red"> start now! </span>
+              </h1>
+              <p style="color: hsl(217, 10%, 50.8%)">
+                Discover a world of safety expertise at SafetyNet Training Center. Whether you're advancing your career or ensuring workplace safety, our comprehensive courses empower you to begin learning and enhancing your skills today.
+              </p>
+            </div>
+  
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="card">
+                <div class="card-body py-5 px-md-5">
+                  <form>
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                    <div class="row" id="contacts">
+                      <h1 class="p-1">Contact Us!</h1>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <a href="mailto:idrisaminullah0@gmail.com"><button type="button" class="btn btn-danger btn-lg">Send Email</button></a>
+                    </div>
+          
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Student Feedback -->
+
+      <section>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center">
+            <h3 class="mb-4">Our Student's Feedback</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+              Here are three student feedback responses
+            </p>
+          </div>
+        </div>
+      
+        <div class="row text-center d-flex align-items-stretch">
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #FAD47B;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Maria Smantha</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i>I enrolled at SafetyNet eager to improve my safety knowledge. Their encouragement to 'Enhance your skill, start now!' motivated me to take action, and I'm already seeing the benefits in my job.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #404040"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Lisa Cudrow</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i>Choosing SafetyNet was a smart decision. Their emphasis on starting now with skill enhancement is spot on. I feel more confident and prepared for any safety challenges ahead.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #ff0000e5;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">John Smith</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i>SafetyNet Training Center provided an excellent platform for enhancing my safety skills. The 'Enhance your skill, start now!' motto truly reflects their commitment to immediate learning and application.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white  py-5">
+      <div class="container">
+        <img src="./images/SafetyNet.png">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>SafetyNet Training Center is dedicated to providing top-notch safety training and resources to help individuals and organizations stay safe.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-envelope"></i> info@safetynet.com</li>
+              <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+              <li><i class="fas fa-map-marker-alt"></i> 123 Safety St, Safety City, SS 12345</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white"><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="#" class="text-white"><i class="fab fa-twitter"></i> Twitter</a></li>
+              <li><a href="#" class="text-white"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center">
+          <p>&copy; 2024 SafetyNet Training Center. All rights reserved.</p>
+        </div>
+      </div>
+  
+    <!-- CDN Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
